@@ -54,6 +54,16 @@ The dataset contains customer demographic, financial, and behavioral information
   
 # Key Insights & Visualizations #
 
+## Data Preparation & Modeling##
+Before building the dashboard, the dataset underwent exploratory data analysis (EDA), data cleaning, and business-oriented transformation to improve analytical quality and support dimensional modeling.
+
+**Key Tasks**
+- Performed Exploratory Data Analysis (EDA) to understand customer characteristics and identify churn patterns.
+- Cleaned and validated the dataset by reviewing data types, missing values, and data consistency.
+= Created business-oriented grouping dimensions, including Age Group, Balance Group, Salary Group, Credit Score Group, and Tenure Group, to support more meaningful customer segmentation.
+- Designed a Star Schema by separating the customer fact table from multiple dimension tables.
+- Developed DAX measures and dynamic parameter tables for interactive analysis.
+
 ## Customer Churn Overview ##
 The Overview page provides a comprehensive view of customer churn performance across different demographic and behavioral dimensions. It helps identify major churn patterns, compare customer groups, and uncover the key factors associated with customer attrition before conducting a deeper segment analysis.
 <img width="1788" height="1006" alt="image" src="https://github.com/user-attachments/assets/9c22320e-36a7-451d-9144-9d6c1c113f37" />
