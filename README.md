@@ -1,5 +1,6 @@
 # Customer-Churn-Analysis-Banking-Power-BI
 An end-to-end Business Intelligence project analyzing customer churn in the banking industry using Power BI. The project covers Power Query ETL, dimensional data modeling, DAX development, AI-powered customer segmentation, interactive dashboards, and business-driven recommendations to identify churn drivers and support retention strategies.
+<img width="1232" height="734" alt="image" src="https://github.com/user-attachments/assets/a2fb5ff1-9b8b-4bca-a310-27415ff344b9" />
 
 # Project Overview #
 
@@ -43,18 +44,23 @@ The dataset contains customer demographic, financial, and behavioral information
 
 # Design Thinking Process #
 ## Step 1. Empathize ##
-- 5W1H 
-- Empathy Map 
-- Stakeholder Journey Map 
+- 5W1H <img width="1414" height="680" alt="image" src="https://github.com/user-attachments/assets/43ff38da-e37a-4582-92c8-9fb41441e81f" />
+- Empathy Map <img width="1686" height="796" alt="image" src="https://github.com/user-attachments/assets/655b7f76-44a1-4f35-9d65-ac762632bcbe" />
+**Key Questions**
+What is the current customer churn rate?
+Which customer segments have the highest churn risk?
+What factors contribute most to customer churn?
+How do customer demographics and behaviors affect churn?
+Which customers should be prioritized for retention?
 
 ## Step 2: Define Point of View ##
-- North Star Metrics
-- Define Point of View 
-- Business Metrics Framework 
-  
+- North Star Metrics <img width="1414" height="620" alt="image" src="https://github.com/user-attachments/assets/8eaab713-5b26-46ef-850e-329d6ce74863" />
+- Define Point of View <img width="1420" height="536" alt="image" src="https://github.com/user-attachments/assets/aad24dea-7b9c-4125-a806-298579946c21" />
+- Business Metrics Framework <img width="1406" height="510" alt="image" src="https://github.com/user-attachments/assets/c51eb529-c84b-4430-9153-50f482b8d731" />
+
 # Key Insights & Visualizations #
 
-## Data Preparation & Modeling##
+## Data Preparation & Modeling ##
 Before building the dashboard, the dataset underwent exploratory data analysis (EDA), data cleaning, and business-oriented transformation to improve analytical quality and support dimensional modeling.
 
 **Key Tasks**
@@ -135,3 +141,4 @@ Increasing product adoption through credit card campaigns and personalized offer
 # Final Conclusion & Recommendations #
 <img width="1678" height="974" alt="image" src="https://github.com/user-attachments/assets/275909de-33e0-46d3-bd02-de79d6b3d41f" />
 
+This project successfully answered the key business questions by identifying the main drivers of customer churn, uncovering AI-generated high-risk customer segments, and providing actionable retention strategies. Through EDA, data modeling, and interactive Power BI dashboards, the solution enables stakeholders to monitor churn performance, understand customer behavior, and make data-driven retention decisions.
