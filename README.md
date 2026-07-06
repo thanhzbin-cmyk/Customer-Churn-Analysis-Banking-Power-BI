@@ -47,11 +47,11 @@ The dataset contains customer demographic, financial, and behavioral information
 - 5W1H <img width="1414" height="680" alt="image" src="https://github.com/user-attachments/assets/43ff38da-e37a-4582-92c8-9fb41441e81f" />
 - Empathy Map <img width="1686" height="796" alt="image" src="https://github.com/user-attachments/assets/655b7f76-44a1-4f35-9d65-ac762632bcbe" />
 **Key Questions**
-What is the current customer churn rate?
-Which customer segments have the highest churn risk?
-What factors contribute most to customer churn?
-How do customer demographics and behaviors affect churn?
-Which customers should be prioritized for retention?
+- What is the current customer churn rate?
+- Which customer segments have the highest churn risk?
+- What factors contribute most to customer churn?
+- How do customer demographics and behaviors affect churn?
+- Which customers should be prioritized for retention?
 
 ## Step 2: Define Point of View ##
 - North Star Metrics <img width="1414" height="620" alt="image" src="https://github.com/user-attachments/assets/8eaab713-5b26-46ef-850e-329d6ce74863" />
@@ -66,7 +66,7 @@ Before building the dashboard, the dataset underwent exploratory data analysis (
 **Key Tasks**
 - Performed Exploratory Data Analysis (EDA) to understand customer characteristics and identify churn patterns.
 - Cleaned and validated the dataset by reviewing data types, missing values, and data consistency.
-= Created business-oriented grouping dimensions, including Age Group, Balance Group, Salary Group, Credit Score Group, and Tenure Group, to support more meaningful customer segmentation.
+- Created business-oriented grouping dimensions, including Age Group, Balance Group, Salary Group, Credit Score Group, and Tenure Group, to support more meaningful customer segmentation.
 - Designed a Star Schema by separating the customer fact table from multiple dimension tables.
 - Developed DAX measures and dynamic parameter tables for interactive analysis.
 
@@ -90,6 +90,7 @@ The overview analysis indicates that customer engagement, geography, age, gender
 ## High-Risk Segment 1 – Female Customers Aged ≥51 ##
 This dashboard investigates the highest-risk customer segment identified by the AI Key Influencers visual. The objective is to understand which business characteristics further increase churn risk within mature female customers.
 <img width="1516" height="1000" alt="image" src="https://github.com/user-attachments/assets/bb348bb1-3834-42c8-98b4-7dfd8d79d4dd" />
+
 **Key Findings**
 - The segment contains 319 churned customers and 285 retained customers, resulting in a 52.8% churn rate, the highest among all identified segments.
 - Germany records the highest churn rate at 67.03%, compared with 48.94% in France and 42.14% in Spain.
@@ -102,6 +103,7 @@ This segment represents the highest priority for retention initiatives, particul
 
 ## High-Risk Segment 2 – Germany Customers Aged 41–50 ##
 <img width="1462" height="952" alt="image" src="https://github.com/user-attachments/assets/303c9f5a-02c3-498b-8e43-c7f39e467175" />
+
 **Key Findings**
 - This segment includes 331 churned customers and 346 retained customers, corresponding to a 48.9% churn rate.
 - Customers with medium account balances (€100k–150k) generate the highest churned balance (€55.81M) and show a churn rate of 57.27%.
@@ -115,6 +117,7 @@ Retention campaigns should focus on mid-career customers in Germany, particularl
 ## High-Risk Segment 3 – Male Customers Aged ≥51 ##
 This dashboard analyzes churn patterns among mature male customers to identify behavioral and financial characteristics associated with customer attrition.
 <img width="1414" height="950" alt="image" src="https://github.com/user-attachments/assets/dce3a3b0-9fea-470c-b87c-ff5307d81002" />
+
 **Key Findings**
 - This segment contains 244 churned customers and 413 retained customers, resulting in a 37.1% churn rate.
 - Customers without a credit card experience an exceptionally high churn rate of 80.30%, highlighting weak product engagement.
@@ -128,6 +131,7 @@ Cross-selling additional banking products, especially credit cards, should becom
 ## High-Risk Segment 4 – Customers Aged 41–50 Without Credit Cards ##
 This dashboard investigates customers aged 41–50 who do not own a credit card, revealing how product adoption, gender, and account balance influence churn.
 <img width="1404" height="946" alt="image" src="https://github.com/user-attachments/assets/73c97397-66ae-4eda-a037-d757c4156e5b" />
+
 **Key Findings**
 - This segment consists of 303 churned customers and 553 retained customers, representing a 35.4% churn rate.
 - Female customers exhibit a significantly higher churn rate (41.65%) than male customers (29.89%).
