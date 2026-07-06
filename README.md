@@ -36,10 +36,10 @@ Customer churn is a major challenge for retail banks, impacting revenue and long
 # Dataset Description & Data Structure #
 
 The dataset contains customer demographic, financial, and behavioral information from a retail bank to analyze customer churn patterns and identify factors influencing customer retention.
-
+- Data Volume: 10,000 Customers
+  <img width="1186" height="572" alt="image" src="https://github.com/user-attachments/assets/0326f811-0e59-49fc-a3ae-f5fc6f32c8b5" />
 - 1 Fact Table: Customer
 - 8 Dimension Tables: Geography, Gender, Age Group, Balance Group, Credit Score Group, Salary Group, Active Member, Credit Card
-- Data Volume: 10,000 Customers
 - Data Model: Star Schema <img width="1720" height="960" alt="image" src="https://github.com/user-attachments/assets/20b65af9-53b6-42ea-bcf8-78d06603185b" />
 
 # Design Thinking Process #
